@@ -1,0 +1,53 @@
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(
+    rgb(120, 120, 197),
+    rgb(120, 120, 218),
+    rgb(71, 71, 160)
+  );
+  border-radius: 30px;
+  height: 250px;
+}
+
+li {
+  border: solid 2px rgb(255, 255, 255);
+  color: white;
+  border-radius: 30px;
+  list-style-type: none;
+  width: 150px;
+  text-align: center;
+  height: 150px;
+  background: linear-gradient(
+    rgb(85, 85, 236),
+    rgb(113, 113, 201),
+    rgb(129, 129, 189)
+  );
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  display: inline-block;
+  margin-left: 85px;
+  border: none;
+  color: white;
+  font-size: 1em;
+  background: linear-gradient(
+    rgb(110, 110, 206),
+    rgb(159, 159, 199),
+    rgb(106, 106, 201)
+  );
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
